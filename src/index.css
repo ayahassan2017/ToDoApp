@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-color: rgb(114, 114, 170);
+}
+.App{
+  background-color: rgb(231, 225, 225);
+  margin: 10px auto;
+  width: 60%;
+  
+}
+h2{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.listitem{
+  background-color: aliceblue
+  color( rgb(38, 38, 94));
+}
+.listitem p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+.listitem span{
+ display: inline-block;
+ text-align: center;
+ padding: 10px 0;
+ font-size: 20px;
+ border: 0.3px solid aliceblue;
+}
+.listitem span.title{
+  background-color:rgb(158, 156, 156);
+  color: aliceblue;
+}
+.listitem span.name,
+form input[type=text]{
+  width: 55%;
+}
+.listitem span.age,
+form input[type=number]{
+  width: 25%;
+}
+.listitem span.action,
+form input[type=submit]{
+  width: 20%;
+}
+.listitem span.icon{
+  color:red;
+  form input{
+    padding: 10px;
+    background-color: beige;
+    border: transparent;
+    border:0.3px solid rgb(112, 112, 187);
+ 
+  }
+  form input [type=submit] {
+    background-color: rgb(94, 175, 230);
+    border : 0.3px solid rgb(97, 150, 185);
+    color : aliceblue;
+    cursor: pointer;
+  }
+}
+form input{
+  height: 30px;
+  border: 0.3px rgb(249, 251, 252);
+  text-align: center;
+}
